@@ -1,0 +1,68 @@
+name: awake_safe
+description: Demonstrates usecase of ML in road safety.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_pdfview: ^1.3.2
+  image_picker: ^1.1.2
+  camera: ^0.10.6
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  audioplayers: ^1.0.1
+  shared_preferences: ^2.0.13
+
+  google_mlkit_commons: any
+
+  google_mlkit_face_detection:
+    path: lib/ml_kit/google_mlkit_face_detection
+  google_mlkit_face_mesh_detection:
+    path: lib/ml_kit/google_mlkit_face_mesh_detection
+
+  provider: ^6.1.2
+  http: ^0.13.6
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0
+  location: ^6.0.2
+  quickalert: ^1.1.0
+  sensors_plus: ^6.0.1
+  simple_animation_progress_bar: ^1.8.2
+  digital_lcd_number: ^0.1.2
+  lcd_led: ^1.0.0
+  flutter_speedometer_new: ^1.0.0
+  lcd_number_text: ^0.0.2
+  flutter_localizations:
+    sdk: flutter
+  syncfusion_localizations: ^27.1.53
+  desktop_window: ^0.4.1
+  syncfusion_flutter_sliders: ^27.1.53
+  cherry_toast: ^1.11.0
+  rename_app: ^1.6.1
+
+
+
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+  fonts:
+    - family: digital
+      fonts:
+        - asset: assets/digital-7.ttf
+        
