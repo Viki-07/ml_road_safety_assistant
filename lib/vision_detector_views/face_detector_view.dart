@@ -283,7 +283,7 @@ class _FaceDetectorViewState extends State<FaceDetectorView> {
                         height: 20,
                         width: 100,
                         backgroundColor: Colors.grey.shade800,
-                        foregrondColor: Colors.purple,
+                        foregroundColor: Colors.purple,
                         ratio: _text == 'No face detected.'
                             ? 0
                             : ((1 - averageEyeOpen) * 100) / 100.toInt(),
